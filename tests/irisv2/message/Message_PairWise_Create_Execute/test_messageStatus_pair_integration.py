@@ -35,7 +35,7 @@ class Test_MessageStatus_Pair_Integration():
         messageDetails['PAYLOAD'].update({
             'schedule': {
                 'scheduleType': 'PARTICULAR_DATE',
-                'scheduledDate': int(time.time() * 1000) + 5 * 60 * 1000
+                'scheduledDate': int(time.time() * 1000) + 6 * 60 * 1000
             }
         })
         # editing message
